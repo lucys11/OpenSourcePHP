@@ -13,7 +13,7 @@
   <?
   for($count = 0;$count < 3;$count++)
   {
-    echo "<tr><td>$index</td><td>$mymarks[$count]</td></tr>";
+    echo "<tr><td>$mymarks$index</td><td>$mymarks[$count]</td></tr>";
   }
 ?>
   </table>
