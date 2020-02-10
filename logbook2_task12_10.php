@@ -3,8 +3,7 @@
   $mymarks["year 2"] = 65;
   $mymarks["year 3"] = 75;
 
-
-
+?>
   <head>
   <title>Data in table</title>
   </head>
@@ -21,4 +20,3 @@
   </table>
   </body>
   </html>
-?>
