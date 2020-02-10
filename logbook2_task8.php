@@ -7,7 +7,7 @@
   $topModules[5] = "Database Design";
   $topModules[6] = "Web Services";
 
-  for($count == 0;$count < 7;$count++)
+  for($count = 0;$count < 7;$count++)
   {
     echo "$count module is $topModules[$count] <br/>";
   }
