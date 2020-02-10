@@ -13,7 +13,7 @@
   <?
   while(list($index,$value) = each($mymarks))
   {
-    echo "<tr><td>$mymarks[$index]</td><td>$mymarks[$value]</td></tr>";
+    echo "<tr><td>$index</td><td>$value</td></tr>";
   }
 ?>
   </table>
