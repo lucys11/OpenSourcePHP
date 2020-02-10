@@ -11,11 +11,10 @@
   <table border=1 align="center">
   <tr><th>Index</th><th>Subject</th></tr>
   <?
-  while(list($index,$value) = each($mymarks))
+  for($count = 0;$count < 3;$count++)
   {
-    echo "for  $index  my grade was  $value <br/>";
+    echo "<tr><td>$count</td><td>$topmodules[$count]</td></tr>";
   }
-  echo "<br/> My best year was Year 3 when I averaged ". $mymarks["year 3"];
 ?>
   </table>
   </body>
