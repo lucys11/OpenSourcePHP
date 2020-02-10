@@ -11,9 +11,9 @@
   <table border=1 align="center">
   <tr><th>Index</th><th>Subject</th></tr>
   <?
-  for($count = 0;$count < 3;$count++)
+  while(list($index,$value) = each($mymarks))
   {
-    echo "<tr><td>$mymarks[$count]</td></tr>";
+    echo "<tr><td>$mymarks[$index]</td><td>$mymarks[$value]</td></tr>";
   }
 ?>
   </table>
