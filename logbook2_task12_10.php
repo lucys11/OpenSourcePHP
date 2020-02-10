@@ -13,7 +13,7 @@
   <?
   for($count = 0;$count < 3;$count++)
   {
-    echo "<tr><td>$count</td><td>$topmodules[$count]</td></tr>";
+    echo "<tr><td>$count</td><td>$mymarks[$count]</td></tr>";
   }
 ?>
   </table>
