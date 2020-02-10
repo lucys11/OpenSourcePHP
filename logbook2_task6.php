@@ -1,7 +1,7 @@
 <?
   $marks[0] = 65;
   $marks[3] = 55;
-  $marks[1] = 76;
+  $marks[] = 76;
 
 
   echo "Index 0 = $marks[0] <br/>";
