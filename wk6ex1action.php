@@ -4,8 +4,6 @@
 
 	$link = mysqli_connect("localhost", "root" , "" , "db1_lucysmart");
 
-	// Execute sql statement
-
 	$sql = "SELECT * from test";
 
 	$result = mysqli_query($link, $sql);
@@ -14,4 +12,5 @@
 	{
 		echo "$row[name]  $row[email]  $row[phone_number] <br/>";
 	}
+
 ?>
